@@ -1,0 +1,179 @@
+.navbar {
+    font-weight: 700;
+    border-bottom: 2px solid black;
+}
+
+.collapse ul li {
+    font-size: larger;
+}
+
+.collapse ul li a {
+    color: brown !important;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+}
+
+.logo1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: -15px;
+}
+
+.navbar-nav li:hover {
+    border-bottom: 2px solid brown;
+}
+
+.home {
+    margin-top: 80px;
+    text-align: center;
+    background: url(./jems/Abract01.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    background-size: 70%;
+}
+
+.home-header {
+    color: white;
+    font-weight: 900;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), purple, blue);
+}
+
+.home-content {
+    height: 500px;
+    align-items: center;
+}
+
+.home-image img {
+    height: 300px;
+    transition: all 1s ease;
+}
+
+.home-image :hover {
+    transform: scale(1.1);
+}
+
+.home-part p {
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.home-part h1 {
+    font-weight: 900;
+}
+
+hr {
+    border-bottom: 1px solid black !important;
+}
+
+.donate a {
+    background-color: blueviolet;
+    font-weight: 900;
+    color: darkblue;
+}
+
+.donate :hover {
+    background: transparent;
+    border: 2px solid blueviolet;
+}
+
+.courses {
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), purple, blue);
+    color: white;
+}
+
+.card-deck {
+    padding: 20px 0px;
+}
+
+.card-deck img {
+    height: 220px;
+}
+
+.card-deck .card .card-footer {
+    text-align: center;
+}
+
+.contact {
+    margin-top: 80px;
+    background: url(./jems/contact.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+}
+
+.contact-content {
+    padding: 150px 10px;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact-header {
+    color: white;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), purple, blue);
+    font-weight: 900;
+}
+
+.contact-image {
+    text-align: center;
+    transition: all 1s ease;
+}
+
+.contact-image:hover {
+    transform: scale(1.1);
+}
+
+.contact-image img {
+    height: 350px;
+    width: 450px;
+    border: 5px solid aliceblue;
+    border-radius: 20px;
+}
+
+.aboutus {
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), purple, blue);
+    color: white;
+    margin-top: 10px;
+}
+
+.total {
+    font-size: smaller;
+    text-align: center;
+    padding: 80px;
+}
+
+.total i {
+    color: gray;
+}
+
+.about {
+    background-color: #ffc107;
+}
+
+.bg-dark img {
+    height: 50px;
+    margin: 7px;
+}
+
+.bg-dark {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .home .home-content {
+        margin-bottom: 200px;
+    }
+    .contact-image img {
+        height: 200px;
+        width: 300px;
+    }
+}
